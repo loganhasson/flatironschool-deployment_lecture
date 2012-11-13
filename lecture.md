@@ -309,9 +309,13 @@ The first package to install is the `build-essential` package:
 
 Then install the various Ruby packages:
 
-    sudo apt-get install ruby1.9.3 sqlite3 libsqlite3-ruby libsqlite3-dev
+    sudo apt-get install ruby1.9.3
 
-That installs Ruby and the sqlite3 libraries required to install the sqlite3 gem.
+That installs Ruby.
+
+Now install Postgres
+
+    apt-get install postgresql libpq-dev
 
 We also need to install git (for deploying our app):
 
